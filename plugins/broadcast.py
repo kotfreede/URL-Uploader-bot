@@ -8,7 +8,7 @@ import asyncio
 import datetime
 import aiofiles
 import traceback
-from configs import Config
+from config import Config
 from helpers.database.access_db import db
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid

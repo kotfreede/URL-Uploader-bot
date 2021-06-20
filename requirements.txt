@@ -5,6 +5,7 @@ hachoir
 numpy
 Pillow
 pyrogram
+aiofiles
 requests
 tgcrypto
 youtube-dl

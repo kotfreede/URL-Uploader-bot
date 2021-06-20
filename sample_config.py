@@ -34,3 +34,7 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3600
     # watermark file
     DEF_WATER_MARK_FILE = ""
+    # database for url
+    MONGODB_URI = os.environ.get("MONGODB_URI")
+    # broadcast to user
+    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))

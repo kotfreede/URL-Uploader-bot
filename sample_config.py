@@ -38,3 +38,5 @@ class Config(object):
     MONGODB_URI = os.environ.get("MONGODB_URI")
     # broadcast to user
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
+    # session of bot
+    SESSION_NAME = os.environ.get("SESSION_NAME", "URL-Uploader-Bot")
